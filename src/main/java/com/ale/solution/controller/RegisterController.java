@@ -1,6 +1,5 @@
 package com.ale.solution.controller;
 
-import com.ale.solution.aop.annotation.PreventRepetitionAnnotation;
 import com.ale.solution.service.RegisterService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -3,6 +3,9 @@ package com.ale.solution.service;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+/**
+ * @author alewu
+ */
 @Service
 @Slf4j
 public class RegisterServiceImpl implements RegisterService{
