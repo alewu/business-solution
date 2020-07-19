@@ -11,6 +11,9 @@ import javax.annotation.PostConstruct;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * The type Lua script service.
+ */
 @Service
 public class LuaScriptServiceImpl implements LuaScriptService {
     @Autowired
@@ -18,6 +21,9 @@ public class LuaScriptServiceImpl implements LuaScriptService {
 
     private DefaultRedisScript<Boolean> defaultRedisScript;
 
+    /**
+     * Init.
+     */
     @PostConstruct
     public void init() {
         defaultRedisScript = new DefaultRedisScript<>();
