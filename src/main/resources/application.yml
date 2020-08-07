@@ -1,9 +1,7 @@
 spring:
   redis:
-    host: 106.54.243.76
-    database: 0
-    port: 6479
-    password: abc123
+    redisson:
+      config: classpath:redisson.yaml
 logging:
   level:
       root: info
